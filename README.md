@@ -1,1 +1,5 @@
 # Url_Downloader
+由于部分URL对应的不是文件的URL，直接下载会失败。发现实际文件的URL和此URL有一定关系，
+用redirect.py生成文件直接对应的URL
+技巧性太强，注意看headers的信息，可能有极大用处
+最终版找不到了，待续
